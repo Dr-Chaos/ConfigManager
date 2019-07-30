@@ -1,0 +1,23 @@
+{
+  "name": "template-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/main.js",
+    "watch": "babel -w src -d dist",
+    "live-reload": "nodemon -w src -x npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
