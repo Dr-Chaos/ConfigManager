@@ -2,9 +2,7 @@
 
 An easy to use package for manage json settings file
 
-# Usage:
-
-## Installation
+# Installation
 
 1. Install config-manager
 
@@ -15,14 +13,14 @@ yarn add "@lovely.sh/config-manager"
 2. Use config-manager in your application
 
 ```
-const cfg = require('../dist/main');
+const cfg = require('@lovely.sh/config-manager');
 ```
 
-## Demo
+# Demo
 
 See demo folder
 
-## Functions
+# Functions
 
 Create and load config file:
 
