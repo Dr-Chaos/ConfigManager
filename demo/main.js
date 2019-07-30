@@ -7,7 +7,7 @@ main();
 function main() {
   const configPath = path.join(__dirname, 'resources', 'settings.json');
 
-  checkConfig(configPath);
+  checkAndCreateConfig(configPath);
 
   const settings = cfg.load(configPath);
 
@@ -21,7 +21,7 @@ function main() {
   cfg.save(configPath, settings);
 }
 
-function checkConfig(configPath) {
+function checkAndCreateConfig(configPath) {
   if (!cfg.exist(configPath)) {
     console.log("Config don't exist");
 
