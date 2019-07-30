@@ -1,5 +1,5 @@
 {
-  "name": "template-babel",
+  "name": "config-manager",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
