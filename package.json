@@ -1,5 +1,5 @@
 {
-  "name": "config-manager",
+  "name": "@lovely.sh/config-manager",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
